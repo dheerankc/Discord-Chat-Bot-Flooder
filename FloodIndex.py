@@ -36,4 +36,4 @@ async def on_ready():
     print('Im Ready To Flood the servers!')
 
 
-bot.run('')
+bot.run('Your bot token')

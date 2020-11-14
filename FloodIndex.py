@@ -12,7 +12,12 @@
 
 #dani's biggest fan of all times
 
+
+
+#hippity hopitty my code is not ur property
+
 #---------------------Dont change any code or else it will go boom---------------------------
+
 
 import discord
 from discord.ext import commands
@@ -20,20 +25,25 @@ import datetime
 
 from urllib import parse, request
 import re
+# these are important since they allow the bot to run using these modules
 
-bot = commands.Bot(command_prefix='no prefix', description="lol nothing")
+
+
+#no prefixes there and no description since this is a all time flood bot
+bot = commands.Bot(command_prefix='', description="")
 
 @bot.listen()
 async def on_message(message):
     if " " in message.content.lower():
-        # in this case don't respond with the word "Tutorial" or you will call the on_message event recursively
         await message.channel.send(' HAHAH ')
         await bot.process_commands(message)
+#this code is the code which will flood all the channels this bot is invited to
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Streaming(name="to keep it a secret", url="http://www.twitch.tv/dheeran2010"))
+    await bot.change_presence(activity=discord.Streaming(name="To Laugh", url="http://www.twitch.tv/dheeran2010"))
     print('Im Ready To Flood the servers!')
+# This code is the satus code but its gonna stream when you run the whole code. DONT CHANGE ANYTING OR ELSE IT BOOM
 
 
 bot.run('Your bot token')

@@ -1,9 +1,18 @@
-1. this bot doesnt run on prefixes and triggers 
+# Discord Chat Flooder!
 
-2.Dont take credit for yourself
+| Programming Language | API Used   | Author    |
+|----------------------|------------|-----------|
+|      Javascript      | discord.js | DheeranFX |
+|        Python        | discord.py |  FireyJS  |
 
-3.use it for your own risk
 
-4.DO NOT CHANGE THE CODE AT ALL
+**Please, Dont take credit for yourself**
 
-5. thats it if u dont give credit to me i will report you
+# Notices
+ **Note: this bot doesnt run on prefixes or triggers**
+ 
+USING THIS IS RISKY! Using this in a public server may get you banned on the server, or even on Discord itself.
+
+Recommendation: DO NOT CHANGE THE CODE AT ALL. If you do, you may change something you didn't mean to change 😧
+
+Also, please give credit to me and Dheeran. if you don't, i will report you 🔫

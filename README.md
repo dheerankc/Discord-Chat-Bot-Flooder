@@ -2,8 +2,8 @@
 
 | Programming Language | API Used   | Author    |
 |----------------------|------------|-----------|
-|      Javascript      | discord.js | DheeranFX |
-|        Python        | discord.py |  FireyJS  |
+|      Javascript      | discord.js |  FireyJS  |
+|        Python        | discord.py | DheeranFX |
 
 
 **Please, Dont take credit for yourself**

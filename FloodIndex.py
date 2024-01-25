@@ -4,7 +4,7 @@
 # this flooder is made for fun so if you upload this on top.gg or other websites
 # YOU WILL PAY FOR IT
 
-#this bot is already on top.gg so copyrights will be harsfully taken
+#this bot is already on top.gg so copyrights will be harsfully taken (CAP [2024] me)
 
 #use this bot code to prank your friends or GET REVENGE ON UR FRNDS SERVER IF U MAKE DIS
 
@@ -12,6 +12,7 @@
 
 #dani's biggest fan of all times
 
+# [2024] i was a kid ok? dont blame me for liking this guy.
 
 
 #hippity hopitty my code is not ur property
@@ -35,7 +36,7 @@ bot = commands.Bot(command_prefix='', description="")
 @bot.listen()
 async def on_message(message):
     if " " in message.content.lower():
-        await message.channel.send(' HAHAH ')
+        await message.channel.send(' message lol ')
         await bot.process_commands(message)
 #this code is the code which will flood all the channels this bot is invited to
 
